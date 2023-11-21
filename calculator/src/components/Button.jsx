@@ -1,7 +1,8 @@
 import './Button.css'
 
-const Button = () => {
-    return <div className='button-wrapper'>Test</div>
+const Button = ({symbol, color }) => {
+    return <div className='button-wrapper'
+    style={{backgroundColor: color}}>{symbol}</div>
 }
 
 export default Button;
