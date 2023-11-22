@@ -7,7 +7,7 @@ const Input = ({ text, result}) => {
                     <h1>{result}</h1>
                 </div>
                 <div className="text">
-                <h1>{text}</h1>  
+                <h3>{text}</h3>  
                 </div>
             </div>
     )

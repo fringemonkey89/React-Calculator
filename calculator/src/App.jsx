@@ -18,6 +18,16 @@ const  App = () => {
     setResult(math.evaluate(input))
   }
 
+  // const calculateResult = () => {
+  //   const input = text.join("")
+  //   try {
+  //     const result = math.evaluate(input)
+  //     setResult(result)
+  //   } catch (error) {
+  //     setResult("Error")
+  //   }
+  // }
+
   const resetInput = () => {
     setText("")
     setResult("")
